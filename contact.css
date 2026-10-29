@@ -1,0 +1,9 @@
+.contact-links { display:grid; gap:15px; margin-top:24px; }
+.contact-links .email { width:max-content; margin-top:0; }
+.contact-item { display:flex; align-items:baseline; justify-content:space-between; gap:26px; max-width:650px; padding:13px 0; border-bottom:1px solid var(--line); font-size:clamp(.95rem,1.8vw,1.22rem); font-weight:700; }
+.contact-item span { color:var(--muted); font:500 .67rem 'DM Mono',monospace; text-transform:uppercase; letter-spacing:.08em; }
+.contact-item:hover { color:var(--coral); }
+.contact-note { margin:19px 0 0; color:var(--muted); font-size:.75rem; }
+.contact-footer { margin-top:110px; }
+@media (max-width:720px) { .contact-item { align-items:flex-start; flex-direction:column; gap:5px; } .contact-links .email { width:100%; overflow-wrap:anywhere; } }
+
