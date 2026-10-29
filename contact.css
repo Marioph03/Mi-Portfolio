@@ -5,5 +5,9 @@
 .contact-item:hover { color:var(--coral); }
 .contact-note { margin:19px 0 0; color:var(--muted); font-size:.75rem; }
 .contact-footer { margin-top:110px; }
+.project-cover { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; transition:transform .45s ease; }
+.project-image:hover .project-cover { transform:scale(1.04); }
+.project-image::after { content:""; position:absolute; inset:0; background:linear-gradient(135deg, rgba(10,18,16,.1), transparent 55%); pointer-events:none; }
+.project-image .project-arrow { z-index:1; }
 @media (max-width:720px) { .contact-item { align-items:flex-start; flex-direction:column; gap:5px; } .contact-links .email { width:100%; overflow-wrap:anywhere; } }
 
