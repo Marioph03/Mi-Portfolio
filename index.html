@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio profesional de Tu Nombre." />
+    <title>Tu Nombre — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="nav container">
+      <a class="brand" href="#inicio" aria-label="Inicio">TN<span>.</span></a>
+      <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">Menú</button>
+      <nav aria-label="Navegación principal">
+        <a href="#proyectos">Proyectos</a>
+        <a href="#perfil">Perfil</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="inicio" class="hero container">
+        <p class="eyebrow">Disponible para colaborar · 2026</p>
+        <h1>Diseño y desarrollo<br /><em>con intención.</em></h1>
+        <div class="hero-bottom">
+          <p>Hola, soy <strong>Tu Nombre</strong>. Creo experiencias digitales claras, útiles y memorables para personas y negocios que quieren avanzar.</p>
+          <a class="button" href="#proyectos">Ver proyectos <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-orb" aria-hidden="true"></div>
+      </section>
+
+      <section id="proyectos" class="projects container">
+        <div class="section-heading">
+          <p class="eyebrow">Selección de trabajo</p>
+          <h2>Proyectos que convierten<br />ideas en impacto.</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project project-featured">
+            <a href="#contacto" class="project-image gradient-coral" aria-label="Ver proyecto MotorDesk">
+              <span class="project-mark">MD</span><span class="project-arrow">↗</span>
+            </a>
+            <div class="project-meta"><div><p class="project-number">01</p><h3>MotorDesk</h3></div><p>Producto digital · Desarrollo</p></div>
+          </article>
+          <article class="project">
+            <a href="#contacto" class="project-image gradient-blue" aria-label="Ver proyecto Atlas">
+              <span class="project-mark line-mark">A</span><span class="project-arrow">↗</span>
+            </a>
+            <div class="project-meta"><div><p class="project-number">02</p><h3>Atlas Studio</h3></div><p>Marca · Web</p></div>
+          </article>
+          <article class="project">
+            <a href="#contacto" class="project-image gradient-lime" aria-label="Ver proyecto Nexo">
+              <span class="project-mark">↗</span><span class="project-arrow">↗</span>
+            </a>
+            <div class="project-meta"><div><p class="project-number">03</p><h3>Nexo</h3></div><p>Estrategia · UX/UI</p></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="perfil" class="profile">
+        <div class="container profile-grid">
+          <p class="eyebrow">Un poco sobre mí</p>
+          <div>
+            <h2>La mejor solución es la que resulta sencilla de usar.</h2>
+            <p class="profile-copy">Combino pensamiento estratégico, diseño visual y tecnología para resolver problemas reales. Me gusta trabajar cerca de las personas, hacer buenas preguntas y cuidar cada detalle que construye confianza.</p>
+            <div class="skills"><span>Producto digital</span><span>Diseño UX/UI</span><span>Desarrollo web</span><span>Identidad visual</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacto" class="contact container">
+        <p class="eyebrow">¿Tienes un proyecto en mente?</p>
+        <h2>Hablemos.</h2>
+        <a class="email" href="mailto:tuemail@ejemplo.com">tuemail@ejemplo.com <span>↗</span></a>
+        <div class="contact-footer"><p>© <span id="year"></span> Tu Nombre</p><div><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a></div></div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
