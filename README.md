@@ -4,7 +4,7 @@ Portfolio estÃ¡tico y responsive listo para GitHub Pages.
 
 ## Personalizar
 
-Busca `Tu Nombre`, `tuemail@ejemplo.com`, los enlaces de LinkedIn/GitHub y los tres proyectos en `index.html`. Puedes cambiar todo el contenido sin instalar dependencias.
+Antes de compartirlo, sustituye `+34 XXX XXX XXX` y `linkedin.com/in/tu-perfil` en `index.html` por tus datos reales. Puedes cambiar todo el contenido sin instalar dependencias.
 
 ## Publicar en GitHub Pages
 
